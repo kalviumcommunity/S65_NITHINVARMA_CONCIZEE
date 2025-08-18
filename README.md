@@ -33,5 +33,16 @@ RAG enhances the summarizer by supplementing generation with relevant external i
 - These retrieved documents are then fed alongside the original text to the AI model to generate a more comprehensive and context-rich summary.  
 - RAG helps keep summaries accurate and up-to-date by grounding them in real-world, external information beyond the model’s internal training.
 
+## Prompting 
+
+### Zero Shot Prompting 
+
+A zero shot prompting means giving a task of AI without providing examples or other information, it relies the pre-trained model to respond to your question
+
+* Translate "What is your name ?" in Russian - Text Transformation
+* How is the weather today in Delhi - Information Retrieval 
+* Write a poem on nature - Creative Task
+* What is the answer to 147^89 ? - Reason & Problem Solving
+
 ## Conclusion
 Concizee combines advanced AI techniques—prompt engineering, structured JSON output, function calling for backend operations, and optional retrieval-augmented generation—to create a powerful and user-friendly text summarization tool. This project offers both practical value and hands-on experience with key concepts in modern AI application development.
