@@ -44,5 +44,81 @@ A zero shot prompting means giving a task of AI without providing examples or ot
 * Write a poem on nature - Creative Task
 * What is the answer to 147^89 ? - Reason & Problem Solving
 
+# One-Shot Prompting Examples
+
+---
+
+## What is One-Shot Prompting?
+
+One-shot prompting is a technique where you give **exactly one example** of a task to the AI in your prompt. This example shows the AI the **format and expected output**, so it can perform the task correctly on a **new input**.
+
+Think of it as showing someone **how to do something once**, then asking them to do it again on a new problem.
+
+---
+
+## 1) Sentiment Classification
+
+**Explanation:**
+We give **one example sentence and its sentiment**, then ask AI to classify a new sentence.
+
+**Example:**
+
+* **Input-1:** "I love this movie!"
+* **Output-1:** Positive
+
+Now classify:
+
+* **Input-2:** "The service was very slow and frustrating."
+* **Output-2:** Negative ✅
+
+Here, the AI sees the pattern: “sentence → sentiment” and applies it to the new input.
+
+---
+
+## 2) Summarization
+
+**Explanation:**
+We provide **one example of a long sentence and its concise summary**, then ask AI to summarize a new text.
+
+**Example:**
+
+* **Text-1:** "The cat climbed up the tree and got stuck on a high branch."
+* **Summary-1:** "Cat stuck on tree branch."
+
+Now summarize:
+
+* **Text-2:** "Rain poured heavily all night, causing minor flooding in the streets."
+* **Summary-2:** "Heavy rain caused street flooding." ✅
+
+Here, the AI learns to **compress a long sentence into a short summary**.
+
+---
+
+## 3) Reasoning / Math
+
+**Explanation:**
+We show **one simple math problem and its answer**, then ask AI to solve another similar problem.
+
+**Example:**
+
+* **Problem-1:** 7 × 6 = ?
+* **Answer-1:** 42
+
+Now solve:
+
+* **Problem-2:** 9 × 5 = ?
+* **Answer-2:** 45 ✅
+
+The AI understands the **pattern of the operation** and applies it to a new problem.
+
+---
+
+## Key Points of One-Shot Prompting
+
+1. You give **exactly one example** of input → output.
+2. Example shows the **format, style, and type of answer**.
+3. AI uses this example to generate the correct output for **new inputs**.
+
+
 ## Conclusion
 Concizee combines advanced AI techniques—prompt engineering, structured JSON output, function calling for backend operations, and optional retrieval-augmented generation—to create a powerful and user-friendly text summarization tool. This project offers both practical value and hands-on experience with key concepts in modern AI application development.
