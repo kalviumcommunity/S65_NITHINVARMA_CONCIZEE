@@ -119,6 +119,70 @@ The AI understands the **pattern of the operation** and applies it to a new prob
 2. Example shows the **format, style, and type of answer**.
 3. AI uses this example to generate the correct output for **new inputs**.
 
+# Multiple-Shot Prompting Examples
+
+---
+
+## What is Multiple-Shot Prompting?
+
+Multiple-shot prompting is when you give an AI **multiple examples** as an input before asking it to generate its own response.
+It’s like teaching by showing several solved examples so the AI can pick up the **pattern, style, and logic** before answering the actual question.
+
+---
+
+## 1) Structured Data Extraction
+
+**Example 1:**
+
+* **Text:** "John bought 3 apples for \$5."
+* **Extracted Data:** {"name": "John", "item": "apples", "quantity": 3, "price": 5}
+
+**Example 2:**
+
+* **Text:** "Sara ordered 2 coffees for \$8."
+* **Extracted Data:** {"name": "Sara", "item": "coffees", "quantity": 2, "price": 8}
+
+Now extract data:
+
+* **Text:** "Mike purchased 5 oranges for \$12."
+* **Extracted Data:** {"name": "Mike", "item": "oranges", "quantity": 5, "price": 12} ✅
+
+Here, the AI sees **multiple examples** and learns the **pattern for extracting structured information**.
+
+---
+
+## 2) Text Classification
+
+**Example 1:**
+
+* **Text:** "The movie was amazing, I loved every minute of it."
+* **Sentiment:** Positive
+
+**Example 2:**
+
+* **Text:** "This is the worst service I've ever experienced."
+* **Sentiment:** Negative
+
+**Example 3:**
+
+* **Text:** "The food was fine, nothing special."
+* **Sentiment:** Neutral
+
+Now classify:
+
+* **Text:** "I'm impressed with the quality but delivery was slow."
+* **Sentiment:** Positive ✅
+
+Here, AI learns **how to classify sentiment** by looking at multiple examples, improving accuracy and understanding nuanced cases.
+
+---
+
+## Key Points of Multiple-Shot Prompting
+
+1. You provide **several examples** of input → output.
+2. Helps AI **understand patterns, nuances, and logic** better than one-shot.
+3. Useful for tasks like **data extraction, text classification, summarization, reasoning, and more**.
+
 
 ## Conclusion
 Concizee combines advanced AI techniques—prompt engineering, structured JSON output, function calling for backend operations, and optional retrieval-augmented generation—to create a powerful and user-friendly text summarization tool. This project offers both practical value and hands-on experience with key concepts in modern AI application development.
