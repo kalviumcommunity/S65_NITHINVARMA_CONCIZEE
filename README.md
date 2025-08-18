@@ -183,6 +183,66 @@ Here, AI learns **how to classify sentiment** by looking at multiple examples, i
 2. Helps AI **understand patterns, nuances, and logic** better than one-shot.
 3. Useful for tasks like **data extraction, text classification, summarization, reasoning, and more**.
 
+# Dynamic Prompting Examples
+
+---
+
+## What is Dynamic Prompting?
+
+Dynamic prompting is the technique of creating AI prompts that **change based on context, variables, or real-time data** instead of being fixed.
+It uses a **template with placeholders** that get filled in at runtime, allowing the AI to adapt its response to the situation.
+This makes outputs more **personalized, relevant, and context-aware** compared to static prompts.
+
+---
+
+## 1) Personalized Chatbot Greeting
+
+**Template:**
+
+* "Hello {user\_name}, welcome back! How was your {last\_activity}?"
+
+**Runtime Example:**
+
+* "Hello Priya, welcome back! How was your yoga session today?" ✅
+
+Here, the AI fills in **dynamic variables** like `user_name` and `last_activity`.
+
+---
+
+## 2) Travel Assistant
+
+**Template:**
+
+* "Your flight to {destination} is scheduled at {departure\_time}. Remember to {travel\_tip}."
+
+**Runtime Example:**
+
+* "Your flight to Paris is scheduled at 7:30 AM. Remember to check in online." ✅
+
+AI adapts the message based on **destination, departure time, and travel advice**.
+
+---
+
+## 3) Task Reminder
+
+**Template:**
+
+* "Hi {user\_name}, you have {task\_count} tasks pending for today, including: {task\_list}."
+
+**Runtime Example:**
+
+* "Hi Rahul, you have 3 tasks pending for today, including: submit report, call client, and update website." ✅
+
+AI generates **context-aware reminders** based on **user and task details**.
+
+---
+
+## Key Points of Dynamic Prompting
+
+1. Prompts are **not fixed**; they adapt to variables or context.
+2. Templates have **placeholders** filled at runtime.
+3. Makes AI outputs **personalized, relevant, and context-aware**.
+
 
 ## Conclusion
 Concizee combines advanced AI techniques—prompt engineering, structured JSON output, function calling for backend operations, and optional retrieval-augmented generation—to create a powerful and user-friendly text summarization tool. This project offers both practical value and hands-on experience with key concepts in modern AI application development.
