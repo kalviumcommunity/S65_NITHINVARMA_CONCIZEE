@@ -243,6 +243,61 @@ AI generates **context-aware reminders** based on **user and task details**.
 2. Templates have **placeholders** filled at runtime.
 3. Makes AI outputs **personalized, relevant, and context-aware**.
 
+---
+
+### Chain-of-thought (CoT) prompting
+→ A prompting technique where you ask the AI to **show its step-by-step reasoning** before giving the final answer. It helps the model solve **complex problems** more accurately.
+
+---
+
+### **Examples**
+
+**1. Math Problem**
+**Prompt:**
+
+```
+What is 20 × 15? Think step by step.
+```
+
+**Output:**
+
+```
+20 × 15 = (20 × 10) + (20 × 5) = 200+ 100 = 300.
+Answer: 300
+```
+
+---
+
+**2. Riddle Solving**
+**Prompt:**
+
+```
+If John is older than Mary, and Mary is older than Sam, who is the oldest? Think step by step.
+```
+
+**Output:**
+
+```
+John > Mary > Sam.
+So, John is the oldest.
+```
+
+---
+
+**3. Word Problem**
+**Prompt:**
+
+```
+A train travels 30 km in 2 hours. What is its average speed? Think step by step.
+```
+
+**Output:**
+
+```
+Speed = Distance ÷ Time = 30 ÷ 2 = 15 km/h.
+Answer: 15 km/h.
+```
+
 
 ## Conclusion
 Concizee combines advanced AI techniques—prompt engineering, structured JSON output, function calling for backend operations, and optional retrieval-augmented generation—to create a powerful and user-friendly text summarization tool. This project offers both practical value and hands-on experience with key concepts in modern AI application development.
