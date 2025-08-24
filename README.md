@@ -245,7 +245,7 @@ AI generates **context-aware reminders** based on **user and task details**.
 
 ---
 
-### Chain-of-thought (CoT) prompting
+## Chain-of-thought (CoT) prompting
 → A prompting technique where you ask the AI to **show its step-by-step reasoning** before giving the final answer. It helps the model solve **complex problems** more accurately.
 
 ---
